@@ -42,6 +42,74 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+/* ***!!  my code  !!*** */
+
+.lambdalogo {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin-right: 40px;
+    color: black;
+}
+
+h6 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.aboutsection {
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.midsection {
+    padding-top: 20px;
+}
+
+.boxes {
+    display: flex;
+    /*border-bottom: 1px dashed black; */
+}
+
+.boxes2 {
+    display: flex;
+    border-bottom: 1px dashed black; 
+    padding-top: 40px;
+}
+.card1 {
+    border-bottom: 1px dashed black;
+
+}
+
+
+button {
+    padding: 10px;
+    border-radius: 7px;
+    border-color: black;
+    margin-bottom: 20px;  
+}
+
+.letsworktogether {
+    padding-top: 25px;
+}
+
+
+/* ***!!  my code  !!*** */
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -64,6 +132,8 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 15px;    /* ***!!  my code  !!*** */
+    padding-bottom: 15px;
 }
 
 .container {
@@ -83,6 +153,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 20px; /* mine */
 }
 
 .middle-content {
@@ -101,10 +172,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -129,6 +299,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 30px;
 }
 
 footer nav {
@@ -144,3 +315,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
