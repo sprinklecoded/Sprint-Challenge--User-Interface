@@ -63,7 +63,6 @@ nav {
 a {
     margin-right: 40px;
     color: black;
-    display: flex;
 }
 
 h6 {
@@ -82,16 +81,19 @@ h6 {
 
 .boxes {
     display: flex;
+    /*border-bottom: 1px dashed black; */
 }
 
 .boxes2 {
     display: flex;
+    border-bottom: 1px dashed black; 
     padding-top: 40px;
 }
-.card {
+.card1 {
     border-bottom: 1px dashed black;
-    margin-right: 30px;
+
 }
+
 
 button {
     padding: 10px;
